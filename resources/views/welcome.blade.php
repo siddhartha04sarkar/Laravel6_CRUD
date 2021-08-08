@@ -33,7 +33,7 @@
       <td>{{ $std->email }}</td>
       <td>{{ $std->phone }}</td>&nbsp;
       <td>
-        <a class="btn btn-success" title="Edit" href="{{ route('edit', $std->id) }}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a> ||
+        <a class="btn btn-success" title="Edit" href="{{ route('edit', $std->id) }}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>&nbsp;&nbsp;
 
         <form method="POST" id="delete-form-{{ $std->id }}" action="{{ route('delete', $std->id) }}" style="display:none;">
 
